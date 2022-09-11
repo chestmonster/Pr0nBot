@@ -9,7 +9,7 @@ configFile = "config.json"
 if os.path.isfile("config.json"):
     file = open("config.json")
     conf = json.load(file)
-    discord_token = conf["discord_token"]
+    discord_token = conf["1018467556010508319"]
 else:
     print("RIP no config")
 
